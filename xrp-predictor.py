@@ -34,7 +34,7 @@ except ImportError:
 
 # Import TA library for advanced technical indicators
 try:
-     # import ta
+    import ta
     from ta.trend import MACD, EMAIndicator, SMAIndicator, ADXIndicator, CCIIndicator
     from ta.momentum import RSIIndicator, StochasticOscillator, ROCIndicator, WilliamsRIndicator
     from ta.volatility import BollingerBands, AverageTrueRange, KeltnerChannel
